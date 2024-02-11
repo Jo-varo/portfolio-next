@@ -50,7 +50,7 @@
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-4.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "TypeScript", "React", "Tailwind"],
+      "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-four",
         "live": "https://alura-challenge-four.vercel.app/"
@@ -91,7 +91,7 @@
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "/",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "TypeScript", "React", "Tailwind", "NextJS"],
+      "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS", "NextJS","NestJS"],
       "links": {
         "repo": "/",
         "live": "/"
@@ -110,6 +110,16 @@
         "repo": "https://github.com/Jo-varo/alura-challenge-one",
         "live": "https://jo-varo.github.io/alura-challenge-one/"
       }
+    },
+    {
+      "id": 9,
+      "name": "ECLAT",
+      "description": "Proyecto hecho para el primer Alura Challenge",
+      "createdAt": "2024-02-08T01:45:25.838Z",
+      "updatedAt": "2024-02-08T01:45:25.838Z",
+      "image": "",
+      "imageDescription": "",
+      "tools": ["HTML", "CSS", "JavaScript","NextJS"]
     }
   ]
 }

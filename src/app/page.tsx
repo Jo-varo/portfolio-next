@@ -9,13 +9,13 @@ export default function Home() {
         <TitleShine>Portafolio de Jovaro</TitleShine>
       </h1>
 
+      <ProjectList />
       <div className="flex justify-between mt-10 text-lg">
         <span>List of Projects</span>
         <Link href="/projects" className="bold underline">
           Go to projects
         </Link>
       </div>
-      <ProjectList />
     </>
   );
 }

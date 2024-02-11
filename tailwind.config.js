@@ -12,10 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        ptsans: ['var(--font-ptsans)'],
+        lato: ['var(--font-lato)'],
+      },
       animation: {
         'blurred-fade-in': 'blurred-fade-in 0.9s ease-in-out both',
         'background-shine': 'background-shine 2s linear infinite',
         'pulse-fade-in': 'pulse-fade-in 0.6s ease-out both',
+        'background-shine': 'background-shine 2s linear infinite',
       },
       keyframes: {
         'blurred-fade-in': {
@@ -48,6 +53,14 @@ module.exports = {
           '100%': {
             transform: 'scale(1)',
             opacity: '1',
+          },
+          'background-shine': {
+            from: {
+              backgroundPosition: '0 0',
+            },
+            to: {
+              backgroundPosition: '-200% 0',
+            },
           },
         },
       },
