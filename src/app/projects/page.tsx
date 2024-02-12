@@ -1,7 +1,9 @@
-import ProjectList from "../ui/project-list";
+import ProjectList from '../ui/projects/project-list';
 
 export default function Projects() {
   return (
-    <ProjectList />
-  )
+    <main>
+      <ProjectList />
+    </main>
+  );
 }

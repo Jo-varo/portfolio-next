@@ -1,6 +1,6 @@
-import type { Project } from '../types';
+import type { Project } from '../../types';
 import ProjectCard from './project-card';
-import { getProjects } from '../lib/data';
+import { getProjects } from '../../lib/data';
 
 export default async function ProjectList() {
   const projects: Project[] = await getProjects();

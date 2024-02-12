@@ -16,11 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className="bg-black text-white min-h-screen">
+      <body
+        className={`bg-black text-white min-h-screen ${ptsans.variable} ${lato.variable}`}
+      >
         <Background />
-        <main className={`${ptsans.variable} ${lato.variable} p-2 md:p-10`}>
-          {children}
-        </main>
+        {children}
         <Footer />
       </body>
     </html>

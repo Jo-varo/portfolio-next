@@ -17,6 +17,7 @@ import {
   SiReactquery,
   SiTailwindcss,
   SiTypescript,
+  SiZod,
 } from 'react-icons/si';
 
 interface Props {
@@ -45,6 +46,7 @@ export default function ToolIcon({ tool }: Props) {
     MySQL: GrMysql,
     Git: SiGit,
     Axios: SiAxios,
+    Zod: SiZod
   };
 
   const Icon = ({ tool }: Props) => {

@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+h1,
+h2,
+h3 {
+  @apply font-ptsans;
 }
 
-body {
+header,
+main,
+footer {
+  @apply max-w-[1600px] mx-auto;
+}
 
+main {
+  @apply p-2 md:p-10;
 }

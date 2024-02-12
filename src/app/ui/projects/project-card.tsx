@@ -1,5 +1,5 @@
 import React from 'react';
-import { Project } from '../types';
+import { Project } from '../../types';
 import ToolIcon from './tool-icon';
 import ButtonShine from './project-button-shine';
 import { FiGithub } from 'react-icons/fi';

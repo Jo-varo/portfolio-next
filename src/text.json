@@ -1,0 +1,26 @@
+{
+  "english": {
+    "languages": {
+      "en": "English",
+      "es": "Spanish"
+    },
+    "pages": {
+      "home": { "title": "Jovaro's Portfolio" }
+    },
+    "footer": {
+      "devBy": "Developed by"
+    }
+  },
+  "spanish": {
+    "languages": {
+      "en": "Inglés",
+      "es": "Español"
+    },
+    "pages": {
+      "home": { "title": "Portafolio de Jovaro" }
+    },
+    "footer": {
+      "devBy": "Desarrollado por"
+    }
+  }
+}
