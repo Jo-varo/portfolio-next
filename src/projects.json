@@ -90,7 +90,14 @@
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20ecommerce.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript", "NextJS"],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "TailwindCSS"
+      ],
       "links": {
         "repo": "https://github.com/Geavor/ecommerce",
         "live": "https://ecommerce-geavor.vercel.app/"
@@ -134,7 +141,14 @@
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20TanStack%20Issues.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript", "TanStack"],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "TanStack"
+      ],
       "links": {
         "repo": "https://github.com/Jo-varo/tanstack-react-issues"
       }
@@ -148,15 +162,11 @@
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20Portolio%20Next.jpg",
       "imageDescription": "",
-      "tools": [
-        "HTML",
-        "CSS",
-        "TypeScript",
-        "React",
-        "TailwindCSS",
-        "NextJS",
-        "NestJS"
-      ]
+      "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS", "NextJS"],
+      "links": {
+        "repo": "https://github.com/Jo-varo/portfolio-next",
+        "live": "https://portfolio-jovaro.vercel.app/"
+      }
     }
   ]
 }

@@ -20,7 +20,6 @@ module.exports = {
         'blurred-fade-in': 'blurred-fade-in 0.9s ease-in-out both',
         'background-shine': 'background-shine 2s linear infinite',
         'pulse-fade-in': 'pulse-fade-in 0.6s ease-out both',
-        'background-shine': 'background-shine 2s linear infinite',
       },
       keyframes: {
         'blurred-fade-in': {

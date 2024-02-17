@@ -19,8 +19,8 @@ export default function ProjectCard({ project, index }: Props) {
       className="rounded-lg overflow-hidden border border-gray-800 hover:border-gray-600 transition-[colors,shadow] animate-blurred-fade-in shadow-md hover:shadow-gray-800 bg-black"
       style={{ animationDelay: `${index * 300 + 450}ms` }}
     >
-      <div className="relative aspect-video w-full bg-green-800 block border-b border-gray-800">
-        <Image src={image} fill alt={imageDescription} className="" />
+      <div className="relative aspect-video w-full bg-[linear-gradient(110deg,#2d2d2d,45%,#5a5a5a,55%,#2d2d2d)] bg-[length:300%_100%] animate-background-shine block border-b border-gray-800">
+        <Image src={image} fill alt={imageDescription} style={{objectFit: "cover"}}/>
       </div>
       <div className="px-2 md:px-4">
         <div className="my-2">
