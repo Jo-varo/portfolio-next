@@ -15,6 +15,7 @@ import {
   SiNestjs,
   SiNextdotjs,
   SiReactquery,
+  SiReactrouter,
   SiTailwindcss,
   SiTypescript,
   SiZod,
@@ -46,7 +47,8 @@ export default function ToolIcon({ tool }: Props) {
     MySQL: GrMysql,
     Git: SiGit,
     Axios: SiAxios,
-    Zod: SiZod
+    Zod: SiZod,
+    'React Router': SiReactrouter
   };
 
   const Icon = ({ tool }: Props) => {

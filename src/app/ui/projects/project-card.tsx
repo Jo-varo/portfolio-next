@@ -4,6 +4,7 @@ import ToolIcon from './tool-icon';
 import ButtonShine from './project-button-shine';
 import { FiGithub } from 'react-icons/fi';
 import { TbWorld } from 'react-icons/tb';
+import Image from 'next/image';
 
 interface Props {
   project: Project;
@@ -11,24 +12,22 @@ interface Props {
 }
 
 export default function ProjectCard({ project, index }: Props) {
-  const { name, description, links, tools, image, imageDescription } = project;
+  const { name, links, tools, image, imageDescription } = project;
 
   return (
     <article
       className="rounded-lg overflow-hidden border border-gray-800 hover:border-gray-600 transition-[colors,shadow] animate-blurred-fade-in shadow-md hover:shadow-gray-800 bg-black"
       style={{ animationDelay: `${index * 300 + 450}ms` }}
     >
-      <img
-        src={image}
-        alt={imageDescription}
-        className="aspect-video w-full bg-green-800 block border-b border-gray-800"
-      />
+      <div className="relative aspect-video w-full bg-green-800 block border-b border-gray-800">
+        <Image src={image} fill alt={imageDescription} className="" />
+      </div>
       <div className="px-2 md:px-4">
         <div className="my-2">
           <h3 className="text-center font-bold text-xl text-orange-200">
             {name}
           </h3>
-          <p className="text-gray-300 font-lato">{description}</p>
+          <p className="text-gray-300 font-lato">{project['description-es']}</p>
         </div>
         <footer className="project-footer flex items-center justify-between border-t border-gray-600 py-2 gap-1">
           <div className="tools flex gap-1 md:gap-[0.375rem] grow flex-wrap">

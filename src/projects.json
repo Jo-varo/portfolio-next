@@ -3,7 +3,8 @@
     {
       "id": 1,
       "name": "Encriptador de texto",
-      "description": "Proyecto hecho para el primer Alura Challenge",
+      "description-en": "",
+      "description-es": "Primer proyecto de Alura Challenge, consistia en hacer un encriptador y desencriptador de texto basandose en algunas reglas definidas por Alura",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-1.jpg",
@@ -17,7 +18,8 @@
     {
       "id": 2,
       "name": "Portafolio",
-      "description": "Proyecto hecho para el segundo Alura Challenge, consistia en desarrollar un portafolio",
+      "description-en": "",
+      "description-es": "Segundo proyecto de Alura Challenge, consistia en desarrollar un portafolio basandose en un mockup proveido por Alura en Figma",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-2.jpg",
@@ -31,7 +33,8 @@
     {
       "id": 3,
       "name": "AluraGeek",
-      "description": "Proyecto hecho para el tercer Alura Challenge, consistia en desarrollar una plataforma de eCommerce",
+      "description-en": "",
+      "description-es": "Tercer proyecto de Alura Challenge, consistia en desarrollar una plataforma de eCommerce consumiendo APIs basandose en un mockup proveido por Alura en Figma",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-3.jpg",
@@ -39,18 +42,26 @@
       "tools": ["HTML", "CSS", "JavaScript"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-three",
-        "live": "https://jo-varo.github.io/alura-challenge-three/"
+        "live": "https://alurageek-ecommerce.onrender.com/"
       }
     },
     {
       "id": 4,
       "name": "AluraFlix",
-      "description": "Proyecto hecho para el cuarto Alura Challenge, consistia en desarrollar una plataforma de gestión de videos",
+      "description-en": "",
+      "description-es": "Cuarto y último proyecto de Alura Challenge, consistia en desarrollar una plataforma de gestión de videos, consume APIs, valida formularios y hace uso de LocalStorage, diseño basado en un mockup de alura en Figma",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-4.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS"],
+      "tools": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "React Router"
+      ],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-four",
         "live": "https://alura-challenge-four.vercel.app/"
@@ -59,10 +70,11 @@
     {
       "id": 5,
       "name": "AluraFlix Backend",
-      "description": "Proyecto hecho para el cuarto Alura Challenge, desarrollé el backend del cuarto challenge",
+      "description-en": "",
+      "description-es": "Hecho para el cuarto proyecto Alura Challenge, fue un backend para exponer APIs necesarias para el cuarto proyecto de Alura, es un backend simple hecho con Express y MongoDB",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "/",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20AluraFlix%20Backend.jpg",
       "imageDescription": "",
       "tools": ["Node", "JavaScript", "Express", "MongoDB", "Moongoose"],
       "links": {
@@ -71,55 +83,80 @@
     },
     {
       "id": 6,
-      "name": "TanStack Project",
-      "description": "Proyecto hecho para el primer Alura Challenge",
+      "name": "Ecommerce",
+      "description-en": "",
+      "description-es": "Proyecto hecho para el taller 'Crea una tienda online con React' de EdTeam, consistia en desarrollar el frontend de un ecommerce con React e integrar pagos con PayPal",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20ecommerce.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript", "TanStack"],
+      "tools": ["HTML", "CSS", "JavaScript", "NextJS"],
       "links": {
-        "repo": "https://github.com/Jo-varo/alura-challenge-one",
-        "live": "https://jo-varo.github.io/alura-challenge-one/"
+        "repo": "https://github.com/Geavor/ecommerce",
+        "live": "https://ecommerce-geavor.vercel.app/"
       }
     },
     {
       "id": 7,
-      "name": "Portafolio React",
-      "description": "Un nuevo portafolio hecho con NextJS",
+      "name": "Coin Trace",
+      "description-en": "",
+      "description-es": "Desarrollado para tener un historial de criptodivisas, consume APIs de criptodivisas y APIs de inicio de sesión",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "/",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20CoinTrace.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS", "NextJS","NestJS"],
+      "tools": ["HTML", "CSS", "JavaScript", "React", "React Router"],
       "links": {
-        "repo": "/",
-        "live": "/"
+        "repo": "https://github.com/Geavor/proyecto-react-2022",
+        "live": "https://proyecto-curso.vercel.app"
       }
     },
     {
       "id": 8,
-      "name": "TODO MERN",
-      "description": "Proyecto hecho para el primer Alura Challenge",
+      "name": "Architecture WebSite",
+      "description-en": "",
+      "description-es": "Proyecto privado hecho como free lancer para una empresa, basado en un diseño de Behance 'ECLAT'",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20Archapp.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript"],
+      "tools": ["HTML", "CSS", "JavaScript", "React", "React Router"],
       "links": {
-        "repo": "https://github.com/Jo-varo/alura-challenge-one",
-        "live": "https://jo-varo.github.io/alura-challenge-one/"
+        "live": "https://architecture-app.vercel.app"
       }
     },
     {
       "id": 9,
-      "name": "ECLAT",
-      "description": "Proyecto hecho para el primer Alura Challenge",
+      "name": "Seguidor de reportes Github",
+      "description-en": "",
+      "description-es": "Este fue un proyecto hecho para aprender React Query o TanStack Query",
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20TanStack%20Issues.jpg",
       "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript","NextJS"]
+      "tools": ["HTML", "CSS", "JavaScript", "TanStack"],
+      "links": {
+        "repo": "https://github.com/Jo-varo/tanstack-react-issues"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Portafolio React",
+      "description-en": "",
+      "description-es": "Un nuevo portafolio hecho con NextJS, TypeScript y TailWind",
+      "createdAt": "2024-02-08T01:45:25.838Z",
+      "updatedAt": "2024-02-08T01:45:25.838Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20Portolio%20Next.jpg",
+      "imageDescription": "",
+      "tools": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "NextJS",
+        "NestJS"
+      ]
     }
   ]
 }

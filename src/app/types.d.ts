@@ -3,7 +3,8 @@ export interface Project {
   name: string;
   createdAt: Date;
   updatedAt: Date;
-  description: string;
+  'description-en': string;
+  'description-es': string;
   imageDescription: string;
   image: string;
   links?: {
