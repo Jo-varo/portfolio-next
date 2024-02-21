@@ -3,7 +3,9 @@ import { FaNode } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
 import { IoLogoDocker, IoLogoPython, IoLogoReact } from 'react-icons/io5';
 import {
+  SiApollographql,
   SiAxios,
+  SiBootstrap,
   SiCss3,
   SiExpress,
   SiGit,
@@ -34,6 +36,7 @@ export default function ToolIcon({ tool }: Props) {
     Python: IoLogoPython,
     React: IoLogoReact,
     TailwindCSS: SiTailwindcss,
+    Bootstrap: SiBootstrap,
     Node: FaNode,
     MongoDB: SiMongodb,
     TanStack: SiReactquery,
@@ -48,7 +51,8 @@ export default function ToolIcon({ tool }: Props) {
     Git: SiGit,
     Axios: SiAxios,
     Zod: SiZod,
-    'React Router': SiReactrouter
+    'React Router': SiReactrouter,
+    Apollo: SiApollographql
   };
 
   const Icon = ({ tool }: Props) => {

@@ -5,6 +5,7 @@ import ButtonShine from './project-button-shine';
 import { FiGithub } from 'react-icons/fi';
 import { TbWorld } from 'react-icons/tb';
 import Image from 'next/image';
+import ProjectCardText from './project-card-text';
 
 interface Props {
   project: Project;
@@ -12,7 +13,7 @@ interface Props {
 }
 
 export default function ProjectCard({ project, index }: Props) {
-  const { name, links, tools, image, imageDescription } = project;
+  const { name, description, links, tools, image, imageDescription } = project;
 
   return (
     <article
@@ -20,15 +21,16 @@ export default function ProjectCard({ project, index }: Props) {
       style={{ animationDelay: `${index * 300 + 450}ms` }}
     >
       <div className="relative aspect-video w-full bg-[linear-gradient(110deg,#2d2d2d,45%,#5a5a5a,55%,#2d2d2d)] bg-[length:300%_100%] animate-background-shine block border-b border-gray-800">
-        <Image src={image} fill alt={imageDescription} style={{objectFit: "cover"}}/>
+        <Image
+          src={image}
+          alt={imageDescription}
+          style={{ objectFit: 'cover' }}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
+        />
       </div>
       <div className="px-2 md:px-4">
-        <div className="my-2">
-          <h3 className="text-center font-bold text-xl text-orange-200">
-            {name}
-          </h3>
-          <p className="text-gray-300 font-lato">{project['description-es']}</p>
-        </div>
+        <ProjectCardText name={name} description={description} />
         <footer className="project-footer flex items-center justify-between border-t border-gray-600 py-2 gap-1">
           <div className="tools flex gap-1 md:gap-[0.375rem] grow flex-wrap">
             {tools?.map((tool, i) => (

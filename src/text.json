@@ -1,17 +1,17 @@
 {
-  "english": {
+  "en": {
     "languages": {
       "en": "English",
       "es": "Spanish"
     },
     "pages": {
-      "home": { "title": "JOVARO'S PORTFOLIO" }
+      "home": { "title": "Jovaro's Portfolio" }
     },
     "footer": {
       "devBy": "Developed by"
     }
   },
-  "spanish": {
+  "es": {
     "languages": {
       "en": "Inglés",
       "es": "Español"

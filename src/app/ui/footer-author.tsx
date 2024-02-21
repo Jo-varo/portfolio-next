@@ -4,7 +4,7 @@ import text from '../../text.json'
 export default function AuthorFooter() {
   return (
     <div className="w-full text-center py-3 flex gap-2 items-center justify-center">
-      <span className="mr-1">{text.english.footer.devBy}</span>
+      <span className="mr-1">{text.en.footer.devBy}</span>
       <BadgeLink href="https://github.com/Jo-varo">
         <AiFillGithub className="text-xl" />
         Jo-Varo

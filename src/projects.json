@@ -3,12 +3,14 @@
     {
       "id": 1,
       "name": "Encriptador de texto",
-      "description-en": "",
-      "description-es": "Primer proyecto de Alura Challenge, consistia en hacer un encriptador y desencriptador de texto basandose en algunas reglas definidas por Alura",
+      "description": {
+        "en": "Alura Challenge's first project consisted of making a text encrypter and decryptor based on some rules defined by Alura.",
+        "es": "Primer proyecto de Alura Challenge, consistia en hacer un encriptador y desencriptador de texto basandose en algunas reglas definidas por Alura."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-1.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'Encriptador de texto'",
       "tools": ["HTML", "CSS", "JavaScript"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-one",
@@ -18,12 +20,14 @@
     {
       "id": 2,
       "name": "Portafolio",
-      "description-en": "",
-      "description-es": "Segundo proyecto de Alura Challenge, consistia en desarrollar un portafolio basandose en un mockup proveido por Alura en Figma",
+      "description": {
+        "en": "Second project of Alura Challenge, consisted of developing a portfolio based on a mockup provided by Alura in Figma.",
+        "es": "Segundo proyecto de Alura Challenge, consistia en desarrollar un portafolio basandose en un mockup proveido por Alura en Figma."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-2.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'Portafolio'",
       "tools": ["HTML", "CSS", "JavaScript"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-two",
@@ -33,12 +37,14 @@
     {
       "id": 3,
       "name": "AluraGeek",
-      "description-en": "",
-      "description-es": "Tercer proyecto de Alura Challenge, consistia en desarrollar una plataforma de eCommerce consumiendo APIs basandose en un mockup proveido por Alura en Figma",
+      "description": {
+        "en": "Third project of the Alura Challenge consisted of developing an eCommerce platform consuming APIs based on a mockup provided by Alura in Figma.",
+        "es": "Tercer proyecto de Alura Challenge, consistia en desarrollar una plataforma de eCommerce consumiendo APIs basandose en un mockup proveido por Alura en Figma."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-3.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'AluraGeek'",
       "tools": ["HTML", "CSS", "JavaScript"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-three",
@@ -48,12 +54,14 @@
     {
       "id": 4,
       "name": "AluraFlix",
-      "description-en": "",
-      "description-es": "Cuarto y último proyecto de Alura Challenge, consistia en desarrollar una plataforma de gestión de videos, consume APIs, valida formularios y hace uso de LocalStorage, diseño basado en un mockup de alura en Figma",
+      "description": {
+        "en": "The fourth and final project of the Alura Challenge consisted of developing a video management platform that consumes APIs, validates forms and makes use of LocalStorage, a design based on an Alura mockup in Figma.",
+        "es": "Cuarto y último proyecto de Alura Challenge, consistia en desarrollar una plataforma de gestión de videos, consume APIs, valida formularios y hace uso de LocalStorage, diseño basado en un mockup de alura en Figma."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project-alura-4.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'AluraFlix'",
       "tools": [
         "HTML",
         "CSS",
@@ -70,12 +78,14 @@
     {
       "id": 5,
       "name": "AluraFlix Backend",
-      "description-en": "",
-      "description-es": "Hecho para el cuarto proyecto Alura Challenge, fue un backend para exponer APIs necesarias para el cuarto proyecto de Alura, es un backend simple hecho con Express y MongoDB",
+      "description": {
+        "en": "Developed for the fourth Alura Challenge project, it was a backend to expose APIs needed for the Alura project, it's a simple backend made with Express and MongoDB.",
+        "es": "Desarrollado para el cuarto proyecto Alura Challenge, fue un backend para exponer APIs necesarias para el proyecto de Alura, es un backend simple hecho con Express y MongoDB."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20AluraFlix%20Backend.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'AluraFlix Backend'",
       "tools": ["Node", "JavaScript", "Express", "MongoDB", "Moongoose"],
       "links": {
         "repo": "https://github.com/Jo-varo/alura-challenge-four-backend"
@@ -84,12 +94,14 @@
     {
       "id": 6,
       "name": "Ecommerce",
-      "description-en": "",
-      "description-es": "Proyecto hecho para el taller 'Crea una tienda online con React' de EdTeam, consistia en desarrollar el frontend de un ecommerce con React e integrar pagos con PayPal",
+      "description": {
+        "en": "Project done for EdTeam's 'Create an online store with React' workshop, it consisted of developing the frontend of an ecommerce with React and integrating payments with PayPal.",
+        "es": "Proyecto hecho para el taller 'Crea una tienda online con React' de EdTeam, consistia en desarrollar el frontend de un ecommerce con React e integrar pagos con PayPal."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20ecommerce.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'Ecommerce'",
       "tools": [
         "HTML",
         "CSS",
@@ -106,12 +118,14 @@
     {
       "id": 7,
       "name": "Coin Trace",
-      "description-en": "",
-      "description-es": "Desarrollado para tener un historial de criptodivisas, consume APIs de criptodivisas y APIs de inicio de sesión",
+      "description": {
+        "en": "Developed to have a cryptocurrency history, consumes cryptocurrency APIs and login APIs.",
+        "es": "Desarrollado para tener un historial de criptodivisas, consume APIs de criptodivisas y APIs de inicio de sesión."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20CoinTrace.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'CoinTrace'",
       "tools": ["HTML", "CSS", "JavaScript", "React", "React Router"],
       "links": {
         "repo": "https://github.com/Geavor/proyecto-react-2022",
@@ -121,33 +135,45 @@
     {
       "id": 8,
       "name": "Architecture WebSite",
-      "description-en": "",
-      "description-es": "Proyecto privado hecho como free lancer para una empresa, basado en un diseño de Behance 'ECLAT'",
+      "description": {
+        "en": "Private project developed as a freelancer for a construction company, based on a Behance 'ECLAT' design",
+        "es": "Proyecto privado desarrollado como free lancer para una empresa constructora, basado en un diseño de Behance 'ECLAT'"
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20Archapp.jpg",
-      "imageDescription": "",
-      "tools": ["HTML", "CSS", "JavaScript", "React", "React Router"],
-      "links": {
-        "live": "https://architecture-app.vercel.app"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Seguidor de reportes Github",
-      "description-en": "",
-      "description-es": "Este fue un proyecto hecho para aprender React Query o TanStack Query",
-      "createdAt": "2024-02-08T01:45:25.838Z",
-      "updatedAt": "2024-02-08T01:45:25.838Z",
-      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20TanStack%20Issues.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'Architecture WebSite'",
       "tools": [
         "HTML",
         "CSS",
         "JavaScript",
         "React",
         "React Router",
-        "TanStack"
+        "TailwindCSS"
+      ],
+      "links": {
+        "live": "https://architecture-app.vercel.app"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Seguidor de issues Github",
+      "description": {
+        "en": "This was a project made to learn React Query or TanStack Query. It consisted of consuming the Github API focusing on the official React repository.",
+        "es": "Este fue un proyecto hecho para aprender React Query o TanStack Query. Consistia en consumir la API de Github haciendo enfoque en el repositorio oficial de React."
+      },
+      "createdAt": "2024-02-08T01:45:25.838Z",
+      "updatedAt": "2024-02-08T01:45:25.838Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20TanStack%20Issues.jpg",
+      "imageDescription": "A screenshot of the project 'Github Issues Tracker'",
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "TanStack",
+        "Bootstrap"
       ],
       "links": {
         "repo": "https://github.com/Jo-varo/tanstack-react-issues"
@@ -156,16 +182,43 @@
     {
       "id": 10,
       "name": "Portafolio React",
-      "description-en": "",
-      "description-es": "Un nuevo portafolio hecho con NextJS, TypeScript y TailWind",
+      "description": {
+        "en": "A new portfolio made to show all the projects I have developed throughout the time I was learning React.",
+        "es": "Un nuevo portafolio hecho para mostrar todos los proyectos que he desarrollado a lo largo del tiempo que estuve aprendiendo React."
+      },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
       "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20Portolio%20Next.jpg",
-      "imageDescription": "",
+      "imageDescription": "A screenshot of the project 'Portfolio React'",
       "tools": ["HTML", "CSS", "TypeScript", "React", "TailwindCSS", "NextJS"],
       "links": {
         "repo": "https://github.com/Jo-varo/portfolio-next",
         "live": "https://portfolio-jovaro.vercel.app/"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Rick and Morty Characters",
+      "description": {
+        "en": "Project developed to practice consuming a GraphQL API from the Rick and Morty series using NextJS",
+        "es": "Proyecto desarrollado para practicar el consumo de una API GraphQL de la serie de Rick y morty usando NextJS"
+      },
+      "createdAt": "2024-02-20T01:45:25.838Z",
+      "updatedAt": "2024-02-20T01:45:25.838Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20GraphQL%20Rick_Morty.jpg",
+      "imageDescription": "A screenshot of the project 'Rick and Morty Characters'",
+      "tools": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "NextJS",
+        "GraphQL"
+      ],
+      "links": {
+        "repo": "https://github.com/Jo-varo/rick-and-morty-graphql",
+        "live": "https://rick-and-morty-graphql-drab.vercel.app/client"
       }
     }
   ]
