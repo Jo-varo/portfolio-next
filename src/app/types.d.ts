@@ -1,6 +1,9 @@
 export interface Project {
   id: number;
-  name: string;
+  name: {
+    'en': string;
+    'es': string;
+  };
   createdAt: Date;
   updatedAt: Date;
   description: {

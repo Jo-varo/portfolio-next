@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "name": "Encriptador de texto",
+      "name": { "en": "Text Encrypter", "es": "Encriptador de texto" },
       "description": {
         "en": "Alura Challenge's first project consisted of making a text encrypter and decryptor based on some rules defined by Alura.",
         "es": "Primer proyecto de Alura Challenge, consistia en hacer un encriptador y desencriptador de texto basandose en algunas reglas definidas por Alura."
@@ -19,7 +19,7 @@
     },
     {
       "id": 2,
-      "name": "Portafolio",
+      "name": { "en": "Portfolio", "es": "Portafolio" },
       "description": {
         "en": "Second project of Alura Challenge, consisted of developing a portfolio based on a mockup provided by Alura in Figma.",
         "es": "Segundo proyecto de Alura Challenge, consistia en desarrollar un portafolio basandose en un mockup proveido por Alura en Figma."
@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "name": "AluraGeek",
+      "name": { "en": "AluraGeek", "es": "AluraGeek" },
       "description": {
         "en": "Third project of the Alura Challenge consisted of developing an eCommerce platform consuming APIs based on a mockup provided by Alura in Figma.",
         "es": "Tercer proyecto de Alura Challenge, consistia en desarrollar una plataforma de eCommerce consumiendo APIs basandose en un mockup proveido por Alura en Figma."
@@ -53,7 +53,7 @@
     },
     {
       "id": 4,
-      "name": "AluraFlix",
+      "name": { "en": "AluraFlix", "es": "AluraFlix" },
       "description": {
         "en": "The fourth and final project of the Alura Challenge consisted of developing a video management platform that consumes APIs, validates forms and makes use of LocalStorage, a design based on an Alura mockup in Figma.",
         "es": "Cuarto y último proyecto de Alura Challenge, consistia en desarrollar una plataforma de gestión de videos, consume APIs, valida formularios y hace uso de LocalStorage, diseño basado en un mockup de alura en Figma."
@@ -77,7 +77,7 @@
     },
     {
       "id": 5,
-      "name": "AluraFlix Backend",
+      "name": { "en": "AluraFlix Backend", "es": "Backend de AluraFlix" },
       "description": {
         "en": "Developed for the fourth Alura Challenge project, it was a backend to expose APIs needed for the Alura project, it's a simple backend made with Express and MongoDB.",
         "es": "Desarrollado para el cuarto proyecto Alura Challenge, fue un backend para exponer APIs necesarias para el proyecto de Alura, es un backend simple hecho con Express y MongoDB."
@@ -93,7 +93,7 @@
     },
     {
       "id": 6,
-      "name": "Ecommerce",
+      "name": { "en": "Ecommerce", "es": "Ecommerce" },
       "description": {
         "en": "Project done for EdTeam's 'Create an online store with React' workshop, it consisted of developing the frontend of an ecommerce with React and integrating payments with PayPal.",
         "es": "Proyecto hecho para el taller 'Crea una tienda online con React' de EdTeam, consistia en desarrollar el frontend de un ecommerce con React e integrar pagos con PayPal."
@@ -117,7 +117,7 @@
     },
     {
       "id": 7,
-      "name": "Coin Trace",
+      "name": { "en": "Coin Trace", "es": "Coin Trace" },
       "description": {
         "en": "Developed to have a cryptocurrency history, consumes cryptocurrency APIs and login APIs.",
         "es": "Desarrollado para tener un historial de criptodivisas, consume APIs de criptodivisas y APIs de inicio de sesión."
@@ -134,7 +134,7 @@
     },
     {
       "id": 8,
-      "name": "Architecture WebSite",
+      "name": { "en": "Architecture WebSite", "es": "Architecture WebSite" },
       "description": {
         "en": "Private project developed as a freelancer for a construction company, based on a Behance 'ECLAT' design",
         "es": "Proyecto privado desarrollado como free lancer para una empresa constructora, basado en un diseño de Behance 'ECLAT'"
@@ -157,7 +157,7 @@
     },
     {
       "id": 9,
-      "name": "Seguidor de issues Github",
+      "name": { "en": "Issues Tracker Github", "es": "Seguidor de issues Github" },
       "description": {
         "en": "This was a project made to learn React Query or TanStack Query. It consisted of consuming the Github API focusing on the official React repository.",
         "es": "Este fue un proyecto hecho para aprender React Query o TanStack Query. Consistia en consumir la API de Github haciendo enfoque en el repositorio oficial de React."
@@ -181,7 +181,7 @@
     },
     {
       "id": 10,
-      "name": "Portafolio React",
+      "name": { "en": "React Portfolio", "es": "Portafolio React" },
       "description": {
         "en": "A new portfolio made to show all the projects I have developed throughout the time I was learning React.",
         "es": "Un nuevo portafolio hecho para mostrar todos los proyectos que he desarrollado a lo largo del tiempo que estuve aprendiendo React."
@@ -198,7 +198,7 @@
     },
     {
       "id": 11,
-      "name": "Rick and Morty Characters",
+      "name": { "en": "Rick and Morty Characters", "es": "Personajes de Rick y Morty" },
       "description": {
         "en": "Project developed to practice consuming a GraphQL API from the Rick and Morty series using NextJS",
         "es": "Proyecto desarrollado para practicar el consumo de una API GraphQL de la serie de Rick y morty usando NextJS"
