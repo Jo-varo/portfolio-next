@@ -157,7 +157,10 @@
     },
     {
       "id": 9,
-      "name": { "en": "Issues Tracker Github", "es": "Seguidor de issues Github" },
+      "name": {
+        "en": "Issues Tracker Github",
+        "es": "Seguidor de issues Github"
+      },
       "description": {
         "en": "This was a project made to learn React Query or TanStack Query. It consisted of consuming the Github API focusing on the official React repository.",
         "es": "Este fue un proyecto hecho para aprender React Query o TanStack Query. Consistia en consumir la API de Github haciendo enfoque en el repositorio oficial de React."
@@ -198,7 +201,10 @@
     },
     {
       "id": 11,
-      "name": { "en": "Rick and Morty Characters", "es": "Personajes de Rick y Morty" },
+      "name": {
+        "en": "Rick and Morty Characters",
+        "es": "Personajes de Rick y Morty"
+      },
       "description": {
         "en": "Project developed to practice consuming a GraphQL API from the Rick and Morty series using NextJS",
         "es": "Proyecto desarrollado para practicar el consumo de una API GraphQL de la serie de Rick y morty usando NextJS"
@@ -219,6 +225,45 @@
       "links": {
         "repo": "https://github.com/Jo-varo/rick-and-morty-graphql",
         "live": "https://rick-and-morty-graphql-drab.vercel.app/client"
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "es": "Acortador de links frontend",
+        "en": "Shortener frontend"
+      },
+      "description": {
+        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Angular, usé Angular 17, ciclo de vida del componente, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing",
+        "en": "Project developed to test my knowledge about Angular, I used Angular 17, component life cycle, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing"
+      },
+      "createdAt": "2024-06-05T17:21:45.151Z",
+      "updatedAt": "2024-06-05T17:21:45.151Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20shortener-frontend.jpg",
+      "imageDescription": "A screenshot of the project 'Shortener Frontend'",
+      "tools": ["Angular", "HTML", "CSS", "TypeScript", "TailwindCSS", "Git"],
+      "links": {
+        "repo": "https://github.com/Jo-varo/shortener-frontend",
+        "live": "https://sh0rtnr.vercel.app/"
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "es": "Acortador de links backend",
+        "en": "Shortener backend"
+      },
+      "description": {
+        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Python y Django, es el backend para el frontend shortener usa Json Web Tokens(JWT) como método de autenticación",
+        "en": "Project developed to test my knowledge about Python and Django, it is the backend for the frontend shortener uses Json Web Tokens (JWT) as an authentication method"
+      },
+      "createdAt": "2024-06-05T17:22:45.151Z",
+      "updatedAt": "2024-06-05T17:22:45.151Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20AluraFlix%20Backend.jpg",
+      "imageDescription": "A screenshot of the project 'Shortener Frontend'",
+      "tools": ["Python", "Django", "PostgreSQL"],
+      "links": {
+        "repo": "https://github.com/maxcasqui/shortener-backend"
       }
     }
   ]
