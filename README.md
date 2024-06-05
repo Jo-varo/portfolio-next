@@ -35,3 +35,25 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 TODO: PRACTICE: Show examples of CSS transitions and animation
+Add Favicon
+Review each project/tool, add a good description in EN and ES
+Update the dates
+
+Add a hidden button to enter to manage project list view
+Add form to add/edit/delete new projects
+Change button "Go to projects", styling like ibelick ui
+
+Hacer un JSON para tener ingles español
+Review how to do async/await functions with nextJS
+Make tests
+
+Make the backend
+Trigger animation of display project card when show at viewport
+
+Add all the projects (TStack store)
+
+Check SUPABASE(PostgreSQL) and Netlify
+
+https://ui.ibelick.com/text-shine
+https://animation.ibelick.com/
+https://bg.ibelick.com/

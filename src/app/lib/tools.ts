@@ -21,6 +21,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiZod,
+  SiAngular,
+  SiDjango,
 } from 'react-icons/si';
 
 export const iconTool: Record<string, React.ElementType> = {
@@ -48,4 +50,6 @@ export const iconTool: Record<string, React.ElementType> = {
   Zod: SiZod,
   'React Router': SiReactrouter,
   Apollo: SiApollographql,
+  Angular: SiAngular,
+  Django: SiDjango,
 };
