@@ -230,26 +230,6 @@
     {
       "id": 12,
       "name": {
-        "es": "Acortador de links frontend",
-        "en": "Shortener frontend"
-      },
-      "description": {
-        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Angular, usé Angular 17, ciclo de vida del componente, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing",
-        "en": "Project developed to test my knowledge about Angular, I used Angular 17, component life cycle, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing"
-      },
-      "createdAt": "2024-06-05T17:21:45.151Z",
-      "updatedAt": "2024-06-05T17:21:45.151Z",
-      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20shortener-frontend.jpg",
-      "imageDescription": "A screenshot of the project 'Shortener Frontend'",
-      "tools": ["Angular", "HTML", "CSS", "TypeScript", "TailwindCSS", "Git"],
-      "links": {
-        "repo": "https://github.com/Jo-varo/shortener-frontend",
-        "live": "https://sh0rtnr.vercel.app/"
-      }
-    },
-    {
-      "id": 13,
-      "name": {
         "es": "Acortador de links backend",
         "en": "Shortener backend"
       },
@@ -264,6 +244,26 @@
       "tools": ["Python", "Django", "PostgreSQL"],
       "links": {
         "repo": "https://github.com/maxcasqui/shortener-backend"
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "es": "Acortador de links frontend",
+        "en": "Shortener frontend"
+      },
+      "description": {
+        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Angular, usé Angular 17, ciclo de vida del componente, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing y Web Transitions",
+        "en": "Project developed to test my knowledge about Angular, I used Angular 17, component life cycle, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing and Web Transitions"
+      },
+      "createdAt": "2024-06-05T17:21:45.151Z",
+      "updatedAt": "2024-06-05T17:21:45.151Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20shortener-frontend.jpg",
+      "imageDescription": "A screenshot of the project 'Shortener Frontend'",
+      "tools": ["Angular", "HTML", "CSS", "TypeScript", "TailwindCSS", "Git"],
+      "links": {
+        "repo": "https://github.com/Jo-varo/shortener-frontend",
+        "live": "https://sh0rtnr.vercel.app/"
       }
     }
   ]
