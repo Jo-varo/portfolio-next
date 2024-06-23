@@ -111,8 +111,7 @@
         "TailwindCSS"
       ],
       "links": {
-        "repo": "https://github.com/Geavor/ecommerce",
-        "live": "https://ecommerce-geavor.vercel.app/"
+        "repo": "https://github.com/Geavor/ecommerce"
       }
     },
     {
@@ -129,7 +128,7 @@
       "tools": ["HTML", "CSS", "JavaScript", "React", "React Router"],
       "links": {
         "repo": "https://github.com/Geavor/proyecto-react-2022",
-        "live": "https://proyecto-curso.vercel.app"
+        "live": "https://proyecto-curso.vercel.app/criptomonedas"
       }
     },
     {
@@ -163,7 +162,7 @@
       },
       "description": {
         "en": "This was a project made to learn React Query or TanStack Query. It consisted of consuming the Github API focusing on the official React repository.",
-        "es": "Este fue un proyecto hecho para aprender React Query o TanStack Query. Consistia en consumir la API de Github haciendo enfoque en el repositorio oficial de React."
+        "es": "Este fue un proyecto hecho para aprender React Query o TanStack Query. Consistia en consumir la API de Github para consumir recursos del repositorio oficial de React."
       },
       "createdAt": "2024-02-08T01:45:25.838Z",
       "updatedAt": "2024-02-08T01:45:25.838Z",
@@ -202,12 +201,12 @@
     {
       "id": 11,
       "name": {
-        "en": "Rick and Morty Characters",
-        "es": "Personajes de Rick y Morty"
+        "en": "Project GraqhQL Requests",
+        "es": "Proyecto GraqhQL Requests"
       },
       "description": {
-        "en": "Project developed to practice consuming a GraphQL API from the Rick and Morty series using NextJS",
-        "es": "Proyecto desarrollado para practicar el consumo de una API GraphQL de la serie de Rick y morty usando NextJS"
+        "es": "Proyecto desarrollado para practicar el consumo de una API GraphQL de la serie de Rick y morty usando NextJS del lado cliente y servidor.",
+        "en": "Project developed to practice consuming a GraphQL API from the Rick and Morty series using NextJS on the client and server side."
       },
       "createdAt": "2024-02-20T01:45:25.838Z",
       "updatedAt": "2024-02-20T01:45:25.838Z",
@@ -215,7 +214,6 @@
       "imageDescription": "A screenshot of the project 'Rick and Morty Characters'",
       "tools": [
         "HTML",
-        "CSS",
         "TypeScript",
         "React",
         "TailwindCSS",
@@ -234,8 +232,8 @@
         "en": "Shortener backend"
       },
       "description": {
-        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Python y Django, es el backend para el frontend shortener usa Json Web Tokens(JWT) como método de autenticación",
-        "en": "Project developed to test my knowledge about Python and Django, it is the backend for the frontend shortener uses Json Web Tokens (JWT) as an authentication method"
+        "es": "Desarrollado para poner a prueba mis conocimientos sobre Python y Django, es el backend para el frontend shortener usa JSON Web Tokens(JWT) como método de autenticación.",
+        "en": "Project developed to test my knowledge about Python and Django, it is the backend for the frontend shortener uses JSON Web Tokens(JWT) as an authentication method."
       },
       "createdAt": "2024-06-05T17:22:45.151Z",
       "updatedAt": "2024-06-05T17:22:45.151Z",
@@ -253,8 +251,8 @@
         "en": "Shortener frontend"
       },
       "description": {
-        "es": "Proyecto que desarrollé para poner a prueba mis conocimientos sobre Angular, usé Angular 17, ciclo de vida del componente, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing y Web Transitions",
-        "en": "Project developed to test my knowledge about Angular, I used Angular 17, component life cycle, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing and Web Transitions"
+        "es": "Desarrollado para poner a prueba mis conocimientos sobre Angular, usé Angular 17, ciclo de vida del componente, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing y Web Transitions.",
+        "en": "Project developed to test my knowledge about Angular, I used Angular 17, component life cycle, Routing, ReactiveForms, HttpClient, Interceptors, Guards, Animations, Lazy Loading, Testing and Web Transitions."
       },
       "createdAt": "2024-06-05T17:21:45.151Z",
       "updatedAt": "2024-06-05T17:21:45.151Z",
@@ -264,6 +262,25 @@
       "links": {
         "repo": "https://github.com/Jo-varo/shortener-frontend",
         "live": "https://sh0rtnr.vercel.app/"
+      }
+    },
+    {
+      "id": 14,
+      "name": {
+        "es": "NoCountry ObsequiWorld",
+        "en": "NoCountry ObsequiWorld"
+      },
+      "description": {
+        "es": "Un ecommerce que usa la localizacion para buscar regalos en el área mas cercana. Basado en Angular 18, usa Angular Material. Desarrollado par NoCountry junto con personas de Frontend, Backend, QA y UX/UI.",
+        "en": "An ecommerce that uses location to search for gifts in the nearest area. Based on Angular 18, uses Angular Material. Developed by NoCountry together with people from Frontend, Backend, QA and UX/UI."
+      },
+      "createdAt": "2024-06-23T02:58:22.126Z",
+      "updatedAt": "2024-06-23T02:58:22.126Z",
+      "image": "https://jo-varo.github.io/alura-challenge-two/assets/images/project%20-%20NC%20Obsequiworld.jpg",
+      "imageDescription": "A screenshot of the project 'NoCountry ObsequiWorld'",
+      "tools": ["Angular", "HTML", "CSS", "TypeScript", "TailwindCSS", "Git"],
+      "links": {
+        "repo": "https://github.com/Jo-varo/c18-38-n-java-angular"
       }
     }
   ]

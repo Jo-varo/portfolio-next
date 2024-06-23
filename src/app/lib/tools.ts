@@ -23,6 +23,7 @@ import {
   SiZod,
   SiAngular,
   SiDjango,
+  SiSequelize
 } from 'react-icons/si';
 
 export const iconTool: Record<string, React.ElementType> = {
@@ -52,4 +53,5 @@ export const iconTool: Record<string, React.ElementType> = {
   Apollo: SiApollographql,
   Angular: SiAngular,
   Django: SiDjango,
+  Sequelize: SiSequelize
 };

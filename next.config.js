@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['jo-varo.github.io'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'jo-varo.github.io',
+      },
+    ],
   },
 };
 
