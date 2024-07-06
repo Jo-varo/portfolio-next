@@ -1,4 +1,4 @@
-import { iconTool } from '@/app/lib/tools';
+import { iconTool } from '@/lib/tools';
 
 interface Props {
   tool: string;

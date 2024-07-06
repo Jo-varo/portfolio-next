@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import text from '../../text.json'
+import text from '@/mocks/text.json'
 
 export default function AuthorFooter() {
   return (

@@ -8,6 +8,10 @@ h3 {
   @apply font-ptsans;
 }
 
+body {
+  @apply selection:bg-neutral-400 selection:text-neutral-900;
+}
+
 header,
 main,
 footer {

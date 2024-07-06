@@ -1,6 +1,6 @@
 'use client';
 
-import { getLanguage } from '@/app/lib/language';
+import { getLanguage } from '@/lib/language';
 import { useEffect, useState } from 'react';
 
 interface Props {

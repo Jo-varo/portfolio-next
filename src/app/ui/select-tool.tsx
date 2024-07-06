@@ -1,4 +1,4 @@
-import { iconTool } from '../lib/tools';
+import { iconTool } from '@/lib/tools';
 
 export default function SelectTool() {
   return (
