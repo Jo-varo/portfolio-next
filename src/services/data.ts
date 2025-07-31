@@ -8,7 +8,7 @@ export async function getProjects() {
       data: { projects },
     }: AxiosResponse<ProjectsResponse> = await axios.get(API_URL, {
       headers: {
-        'x-master-key': API_KEY,
+        'x-access-key': API_KEY,
         'x-bin-meta': 'false',
       },
     });
