@@ -19,6 +19,7 @@ export async function getProjects() {
       updatedAt: new Date(project.updatedAt),
     }));
   } catch (error) {
+    console.log(error)
     throw new Error('error at fetching');
   }
 }
